@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://app.qamax.co"><strong>Platform</strong></a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qualitymax">Documentation</a> &nbsp;&middot;&nbsp;
+  <a href="https://app.qamax.co"><strong>Platform</strong></a>
+  <a href="https://github.com/Quality-Max/qualitymax">Documentation</a>
   <a href="https://github.com/marketplace/actions/qualitymax-test-runner>GitHub Action</a>
 </p>
 
