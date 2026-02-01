@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://app.qamax.co"><strong>Platform</strong></a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/Quality-Max/qualitymax">Documentation</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/marketplace/actions/qualitymax-e2e-tests">GitHub Action</a>
+  <a href="https://github.com/marketplace/actions/qualitymax-test-runner>GitHub Action</a>
 </p>
 
 ---
@@ -71,4 +71,4 @@ Visit [**app.qamax.co**](https://app.qamax.co) to get started.
 
 - **Platform**: [app.qamax.co](https://app.qamax.co)
 - **Documentation**: [qualitymax repo](https://github.com/Quality-Max/qualitymax)
-- **GitHub Action**: [Marketplace](https://github.com/marketplace/actions/qualitymax-e2e-tests)
+- **GitHub Action**: [Marketplace](https://github.com/marketplace/actions/qualitymax-test-runner)
