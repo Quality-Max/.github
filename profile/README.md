@@ -1,6 +1,18 @@
-# QualityMax
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/logo.png" alt="QualityMax" width="300">
+</p>
 
-**AI-powered test automation platform.** Generate, execute, and maintain end-to-end tests for web applications — from a single URL to full CI/CD integration.
+<h3 align="center">AI-Powered Test Automation Platform</h3>
+
+<p align="center">
+  Generate, execute, and maintain end-to-end tests for web applications — from a single URL to full CI/CD integration.
+</p>
+
+<p align="center">
+  <a href="https://app.qamax.co"><strong>Platform</strong></a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qualitymax">Documentation</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/marketplace/actions/qualitymax-e2e-tests">GitHub Action</a>
+</p>
 
 ---
 
