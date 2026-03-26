@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/logo.png" alt="QualityMax" width="300">
+  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
 </p>
 
 <h3 align="center">AI-Native Test Automation Platform</h3>
