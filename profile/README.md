@@ -2,73 +2,52 @@
   <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/logo.png" alt="QualityMax" width="300">
 </p>
 
-<h3 align="center">AI-Powered Test Automation Platform</h3>
+<h3 align="center">AI-Native Test Automation Platform</h3>
 
 <p align="center">
-  Generate, execute, and maintain end-to-end tests for web applications — from a single URL to full CI/CD integration.
+  UI testing, API testing, performance testing, and security scanning — all powered by AI.
 </p>
 
 <p align="center">
-  <a href="https://app.qamax.co"><strong>Platform</strong></a>
-  <a href="https://github.com/Quality-Max/qualitymax">Documentation</a>
-  <a href="https://github.com/marketplace/actions/qualitymax-test-runner">GitHub Action</a>
+  <a href="https://qualitymax.io"><strong>qualitymax.io</strong></a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/supply-chain-scanner">Supply Chain Scanner</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qamax-local-agent">Local Agent</a>
 </p>
 
 ---
 
 ## What We Build
 
-QualityMax crawls your web application, understands its structure, and generates production-ready Playwright test suites. Tests run in the cloud or on your own infrastructure, with self-healing capabilities that keep them working as your app evolves.
+QualityMax is an AI-native quality platform that covers four testing layers:
 
-### Core Capabilities
+- **UI Testing** — AI crawls your web app, generates Playwright tests, self-heals when UI changes (85% auto-heal rate)
+- **API Testing** — Import OpenAPI specs or repos, generate endpoint tests with proper assertions
+- **Performance Testing** — k6 load, stress, spike, soak tests with trend dashboards and regression detection
+- **Security Scanning** — Integrated SAST with Semgrep, Bandit, and secret detection
 
-- **AI Test Generation** — Point at a URL, get comprehensive E2E tests with assertions and page object models
-- **Playwright Execution** — Run tests in cloud browsers or locally via our agent, with video recording and screenshots
-- **CI/CD Integration** — GitHub Action that runs your test suite on every push or pull request
-- **Self-Healing Tests** — AI detects and fixes broken selectors automatically when your UI changes
-- **Test Management** — Organize test cases by project, track execution history, and manage test runs
+Built by a QA engineer with 18 years of experience. 600K+ lines of production code. Berlin-based.
 
 ---
 
-## Repositories
+## Open Source
 
 | Repository | Description |
 |---|---|
-| [**qualitymax**](https://github.com/Quality-Max/qualitymax) | Platform documentation and public issue tracker |
-| [**qualitymax-github-action**](https://github.com/Quality-Max/qualitymax-github-action) | GitHub Action for running QualityMax tests in CI/CD pipelines |
-| [**qualitymax-demo-playground**](https://github.com/Quality-Max/qualitymax-demo-playground) | Demo repository showing GitHub Action integration in practice |
-| [**qamax-auth-cli**](https://github.com/Quality-Max/qamax-auth-cli) | CLI tool for capturing auth sessions used during AI crawling |
+| [**supply-chain-scanner**](https://github.com/Quality-Max/supply-chain-scanner) | Detect supply chain attacks in Python deps — .pth injection, typosquatting, encoded payloads. 17 tests, zero deps, 2 seconds. |
+| [**qamax-local-agent**](https://github.com/Quality-Max/qamax-local-agent) | Go CLI agent for running Playwright tests behind firewalls, on localhost, against staging. |
 
 ---
 
-## Quick Start
+## Platform Highlights
 
-### Run tests in your CI/CD pipeline
-
-```yaml
-# .github/workflows/e2e-tests.yml
-name: E2E Tests
-on: [push, pull_request]
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: Quality-Max/qualitymax-github-action@v1
-        with:
-          api-key: ${{ secrets.QUALITYMAX_API_KEY }}
-          project-name: my-project
-```
-
-### Try the platform
-
-Visit [**app.qamax.co**](https://app.qamax.co) to get started.
+- **50+ MCP tools** — deepest AI assistant integration in QA (Claude, Cursor, Windsurf)
+- **6 LLM providers** — Anthropic, OpenAI, Gemini, DeepSeek, Mistral, Grok with automatic fallback
+- **BYOLLM** — bring your own API keys, full cost transparency
+- **CI/CD native** — GitHub Actions, GitLab CI, deploy hooks
+- **5-layer quality engine** — every generated test scored A-F before it reaches your pipeline
 
 ---
 
-## Links
-
-- **Platform**: [app.qamax.co](https://app.qamax.co)
-- **Documentation**: [qualitymax repo](https://github.com/Quality-Max/qualitymax)
-- **GitHub Action**: [Marketplace](https://github.com/marketplace/actions/qualitymax-test-runner)
+<p align="center">
+  <a href="https://qualitymax.io">qualitymax.io</a> &nbsp;&middot;&nbsp; Berlin, Germany
+</p>
