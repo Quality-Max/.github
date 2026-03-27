@@ -10,8 +10,9 @@
 
 <p align="center">
   <a href="https://qualitymax.io"><strong>qualitymax.io</strong></a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qualitymax-grader">Test Grader</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/Quality-Max/supply-chain-scanner">Supply Chain Scanner</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qamax-local-agent">Local Agent</a>
+  <a href="https://github.com/Quality-Max/qmax-local-agent">Local Agent</a>
 </p>
 
 ---
@@ -33,8 +34,9 @@ Built by a QA engineer with 19 years of experience. 600K+ lines of production co
 
 | Repository | Description |
 |---|---|
+| [**qualitymax-grader**](https://github.com/Quality-Max/qualitymax-grader) | Lighthouse for test quality. Grade Playwright tests A-F. 17 checks, Playwright reporter, GitHub Action, config file. 89 tests. |
 | [**supply-chain-scanner**](https://github.com/Quality-Max/supply-chain-scanner) | Detect supply chain attacks in Python deps — .pth injection, typosquatting, encoded payloads. 17 tests, zero deps, 2 seconds. |
-| [**qamax-local-agent**](https://github.com/Quality-Max/qamax-local-agent) | Go CLI agent for running Playwright tests behind firewalls, on localhost, against staging. |
+| [**qmax-local-agent**](https://github.com/Quality-Max/qmax-local-agent) | Go CLI agent for running Playwright tests behind firewalls, on localhost, against staging. |
 
 ---
 
