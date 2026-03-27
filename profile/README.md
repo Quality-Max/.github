@@ -25,7 +25,7 @@ QualityMax is an AI-native quality platform that covers four testing layers:
 - **Performance Testing** — k6 load, stress, spike, soak tests with trend dashboards and regression detection
 - **Security Scanning** — Integrated SAST with Semgrep, Bandit, and secret detection
 
-Built by a QA engineer with 18 years of experience. 600K+ lines of production code. Berlin-based.
+Built by a QA engineer with 19 years of experience. 600K+ lines of production code. Berlin-based.
 
 ---
 
