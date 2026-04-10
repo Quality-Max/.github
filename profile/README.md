@@ -16,6 +16,10 @@
   <a href="https://github.com/Quality-Max/supply-chain-scanner">Supply Chain Scanner</a>
 </p>
 
+<p align="center">
+  <a href="https://discord.gg/VNuADkt4"><img src="https://img.shields.io/discord/1492223219090980996?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Join our Discord"></a>
+</p>
+
 ---
 
 ## qmax-code — AI Testing Agent for Your Terminal
@@ -85,5 +89,7 @@ Built by a QA engineer with 19 years of experience. Berlin-based.
 ---
 
 <p align="center">
-  <a href="https://qualitymax.io">qualitymax.io</a> &nbsp;&middot;&nbsp; Berlin, Germany
+  <a href="https://qualitymax.io">qualitymax.io</a> &nbsp;&middot;&nbsp;
+  <a href="https://discord.gg/VNuADkt4">Discord Community</a> &nbsp;&middot;&nbsp;
+  Berlin, Germany
 </p>
