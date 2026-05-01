@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="https://qualitymax.io"><strong>qualitymax.io</strong></a> &nbsp;&middot;&nbsp;
-  <a href="https://qualitymax.io/qmax-code"><strong>qmax-code</strong></a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code-releases">Releases</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qmax-code"><strong>qmax-code</strong></a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qmax-code/releases">Releases</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/Quality-Max/qualitymax-grader">Test Grader</a> &nbsp;&middot;&nbsp;
   <a href="https://github.com/Quality-Max/supply-chain-scanner">Supply Chain Scanner</a>
 </p>
@@ -38,18 +38,20 @@
                              c o d e
 ```
 
-**The first AI testing agent built for the terminal.** 50 tools, natural language interface, self-healing scripts. Named after Max, the real cat.
+**The first AI testing agent built for the terminal.** 49 tools, natural language interface, self-healing scripts. Named after Max, the real cat. Now open source under [FSL-1.1-ALv2](https://github.com/Quality-Max/qmax-code/blob/main/LICENSE).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Quality-Max/qmax-code-releases/main/install.sh | sh
+curl -sL https://raw.githubusercontent.com/Quality-Max/qmax-code/main/install.sh | bash
 ```
 
 **What it does:** You talk to Max in plain English. He crawls your app, generates Playwright tests, executes them on the cloud, auto-heals failures, runs k6 load tests, and exports CI/CD frameworks — all without leaving your terminal.
 
+**v1.13.1** — themes (Historic, Ocean, Neon, Ember, Aurora), thinking spinner, prompt queue, input fixes.
+
 <p align="center">
   <a href="https://qualitymax.io/qmax-code">Product Page</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code-releases/releases">Download</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code-releases">Docs & Install</a>
+  <a href="https://github.com/Quality-Max/qmax-code/releases">Download</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/Quality-Max/qmax-code">Source & Docs</a>
 </p>
 
 ---
@@ -71,7 +73,8 @@ Built by a QA engineer with 19 years of experience. Berlin-based.
 
 | Repository | Description |
 |---|---|
-| [**qmax-code-releases**](https://github.com/Quality-Max/qmax-code-releases) | AI testing agent for your terminal. 50 tools, self-healing, cloud execution. Binaries for macOS/Linux/Windows. |
+| [**qmax-code**](https://github.com/Quality-Max/qmax-code) | AI testing agent source code. 49 tools, self-healing, cloud execution. FSL-1.1-ALv2 → Apache 2.0 after 2 years. |
+| [**qmax-code-releases**](https://github.com/Quality-Max/qmax-code-releases) | Pre-built binaries for macOS, Linux, and Windows. |
 | [**qualitymax-grader**](https://github.com/Quality-Max/qualitymax-grader) | Lighthouse for test quality. Grade Playwright tests A-F. 17 checks, GitHub Action. |
 | [**supply-chain-scanner**](https://github.com/Quality-Max/supply-chain-scanner) | Detect supply chain attacks in Python deps — .pth injection, typosquatting, encoded payloads. |
 | [**qmax-local-agent**](https://github.com/Quality-Max/qmax-local-agent) | Go CLI agent for running Playwright tests behind firewalls, on localhost, against staging. |
@@ -80,7 +83,7 @@ Built by a QA engineer with 19 years of experience. Berlin-based.
 
 ## Platform Highlights
 
-- **50 tools via qmax-code** — the only terminal AI agent purpose-built for QA
+- **49 tools via qmax-code** — the only terminal AI agent purpose-built for QA
 - **50+ MCP tools** — deepest AI assistant integration in QA (Claude, Cursor, Windsurf)
 - **6 LLM providers** — Anthropic, OpenAI, Gemini, DeepSeek, Mistral, Grok with automatic fallback
 - **BYOLLM** — bring your own API keys, full cost transparency
