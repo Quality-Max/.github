@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
-</p>
-
 <h3 align="center">AI-Native Test Automation Platform</h3>
 
 <p align="center">
@@ -88,6 +84,12 @@ Built by a QA engineer with 19 years of experience. Berlin-based.
 - **6 LLM providers** — Anthropic, OpenAI, Gemini, DeepSeek, Mistral, Grok with automatic fallback
 - **BYOLLM** — bring your own API keys, full cost transparency
 - **CI/CD native** — GitHub Actions, GitLab CI, deploy hooks
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
+</p>
 
 ---
 
