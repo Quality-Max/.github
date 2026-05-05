@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
+</p>
+
 <h3 align="center">AI-Native Test Automation Platform</h3>
 
 <p align="center">
@@ -19,10 +24,6 @@
 ---
 
 ## qmax-code — AI Testing Agent for Your Terminal
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/qmax-code-releases/main/assets/max-the-cat.gif" alt="Max the cat" width="200">
-</p>
 
 ```
              ██████╗ ███╗   ███╗ █████╗ ██╗  ██╗
@@ -88,7 +89,7 @@ Built by a QA engineer with 19 years of experience. Berlin-based.
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
+  <img src="https://raw.githubusercontent.com/Quality-Max/qmax-code-releases/main/assets/max-the-cat.gif" alt="Max the cat" width="200">
 </p>
 
 ---
