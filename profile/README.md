@@ -1,3 +1,20 @@
+```text
+                         ╱|、
+                        (˚ˎ 。7
+                         |、˜〵
+                         じしˍ,)ノ
+
+            ██████╗ ███╗   ███╗ █████╗ ██╗  ██╗
+           ██╔═══██╗████╗ ████║██╔══██╗╚██╗██╔╝
+           ██║   ██║██╔████╔██║███████║ ╚███╔╝
+           ██║▄▄ ██║██║╚██╔╝██║██╔══██║ ██╔██╗
+           ╚██████╔╝██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
+            ╚══▀▀═╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+
+                   q u a l i t y m a x
+       Independent verification for AI-written code
+```
+
 # QualityMax
 
 **Independent verification for AI-written code.**
@@ -17,6 +34,16 @@ Discover user journeys, generate and run tests, review changes, and inspect the 
 Hosted workflows use a QualityMax account. Standalone tools have their own prerequisites; model-assisted workflows may require a model provider or coding-agent subscription.
 
 ## What you can do
+
+```text
+┌─ THE QA LOOP ────────────────────────────────────────────┐
+│                                                          │
+│   Discover ──> Generate ──> Review ──> Execute           │
+│                                         │                │
+│   Retain evidence <── Rerun <── Inspect ─┘               │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
 
 - **Turn user journeys into coverage.** Generate tests, execute them, and inspect results and available artifacts. [Start a first run →](https://docs.qualitymax.io/quickstart-web-app/)
 - **Verify pull requests.** Combine code review, supported native test suites, generated-test feedback, and preview-browser checks. Gate availability and enforcement depend on configuration. [PR gates →](https://docs.qualitymax.io/code-review-gates/)
