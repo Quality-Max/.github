@@ -1,101 +1,51 @@
+# QualityMax
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/.github/main/profile/qualitymax-logo.png" alt="QualityMax" width="400">
-</p>
+**Independent verification for AI-written code.**
 
-<h3 align="center">AI-Native Test Automation Platform</h3>
+Discover user journeys, generate and run tests, review changes, and inspect the evidence behind your next release.
 
-<p align="center">
-  UI testing, API testing, performance testing, and security scanning — all powered by AI.
-</p>
+[Website](https://qualitymax.io) · [Open QualityMax](https://app.qualitymax.io) · [Documentation](https://docs.qualitymax.io/) · [Standalone tools](https://docs.qualitymax.io/free-and-open-source/)
 
-<p align="center">
-  <a href="https://qualitymax.io"><strong>qualitymax.io</strong></a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code"><strong>qmax-code</strong></a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code/releases">Releases</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qualitymax-grader">Test Grader</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/supply-chain-scanner">Supply Chain Scanner</a>
-</p>
+## Start here
 
-<p align="center">
-  <a href="https://discord.gg/VNuADkt4"><img src="https://img.shields.io/discord/1492223219090980996?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Join our Discord"></a>
-</p>
-
----
-
-## qmax-code — AI Testing Agent for Your Terminal
-
-```
-             ██████╗ ███╗   ███╗ █████╗ ██╗  ██╗
-            ██╔═══██╗████╗ ████║██╔══██╗╚██╗██╔╝
-            ██║   ██║██╔████╔██║███████║ ╚███╔╝
-            ██║▄▄ ██║██║╚██╔╝██║██╔══██║ ██╔██╗
-            ╚██████╔╝██║ ╚═╝ ██║██║  ██║██╔╝ ██╗
-             ╚══▀▀═╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
-                             c o d e
-```
-
-**The first AI testing agent built for the terminal.** 49 tools, natural language interface, self-healing scripts. Named after Max, the real cat. Now open source under [FSL-1.1-ALv2](https://github.com/Quality-Max/qmax-code/blob/main/LICENSE).
-
-```bash
-curl -sL https://raw.githubusercontent.com/Quality-Max/qmax-code/main/install.sh | bash
-```
-
-**What it does:** You talk to Max in plain English. He crawls your app, generates Playwright tests, executes them on the cloud, auto-heals failures, runs k6 load tests, and exports CI/CD frameworks — all without leaving your terminal.
-
-**v1.13.1** — themes (Historic, Ocean, Neon, Ember, Aurora), thinking spinner, prompt queue, input fixes.
-
-<p align="center">
-  <a href="https://qualitymax.io/qmax-code">Product Page</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code/releases">Download</a> &nbsp;&middot;&nbsp;
-  <a href="https://github.com/Quality-Max/qmax-code">Source & Docs</a>
-</p>
-
----
-
-## What We Build
-
-QualityMax is an AI-native quality platform that covers four testing layers:
-
-- **UI Testing** — AI crawls your web app, generates Playwright tests, self-heals when UI changes
-- **API Testing** — Import OpenAPI specs or repos, generate endpoint tests with proper assertions
-- **Performance Testing** — k6 load, stress, spike, soak tests with trend dashboards and regression detection
-- **Security Scanning** — Integrated SAST with Semgrep, Bandit, and secret detection
-
-Built by a QA engineer with 19 years of experience. Berlin-based.
-
----
-
-## Open Source
-
-| Repository | Description |
+| Your workflow | Get started |
 |---|---|
-| [**qmax-code**](https://github.com/Quality-Max/qmax-code) | AI testing agent source code. 49 tools, self-healing, cloud execution. FSL-1.1-ALv2 → Apache 2.0 after 2 years. |
-| [**qmax-code-releases**](https://github.com/Quality-Max/qmax-code-releases) | Pre-built binaries for macOS, Linux, and Windows. |
-| [**qualitymax-grader**](https://github.com/Quality-Max/qualitymax-grader) | Lighthouse for test quality. Grade Playwright tests A-F. 17 checks, GitHub Action. |
-| [**supply-chain-scanner**](https://github.com/Quality-Max/supply-chain-scanner) | Detect supply chain attacks in Python deps — .pth injection, typosquatting, encoded payloads. |
-| [**qmax-local-agent**](https://github.com/Quality-Max/qmax-local-agent) | Go CLI agent for running Playwright tests behind firewalls, on localhost, against staging. |
+| Use the platform to manage tests and inspect runs | [Web app quickstart](https://docs.qualitymax.io/quickstart-web-app/) |
+| Connect your coding agent to hosted QualityMax | [MCP quickstart](https://docs.qualitymax.io/quickstart-mcp/) |
+| Work locally with standalone tools | [qmax-mcp](https://github.com/Quality-Max/qmax-mcp), [qmax-code](https://github.com/Quality-Max/qmax-code), or [QA skills](https://github.com/Quality-Max/free-qa-skills) |
 
----
+Hosted workflows use a QualityMax account. Standalone tools have their own prerequisites; model-assisted workflows may require a model provider or coding-agent subscription.
 
-## Platform Highlights
+## What you can do
 
-- **49 tools via qmax-code** — the only terminal AI agent purpose-built for QA
-- **50+ MCP tools** — deepest AI assistant integration in QA (Claude, Cursor, Windsurf)
-- **6 LLM providers** — Anthropic, OpenAI, Gemini, DeepSeek, Mistral, Grok with automatic fallback
-- **BYOLLM** — bring your own API keys, full cost transparency
-- **CI/CD native** — GitHub Actions, GitLab CI, deploy hooks
+- **Turn user journeys into coverage.** Generate tests, execute them, and inspect results and available artifacts. [Start a first run →](https://docs.qualitymax.io/quickstart-web-app/)
+- **Verify pull requests.** Combine code review, supported native test suites, generated-test feedback, and preview-browser checks. Gate availability and enforcement depend on configuration. [PR gates →](https://docs.qualitymax.io/code-review-gates/)
+- **Get specialist review.** Use Nexus for attributed findings and shareable review reports. [Nexus →](https://docs.qualitymax.io/nexus-review/)
+- **Evaluate AI applications.** Assess conversations and hallucination risks, and explore browser journeys with simulated users. [AI validation →](https://docs.qualitymax.io/ai-validation/) · [Agentic Eyes →](https://docs.qualitymax.io/agentic-eyes/)
+- **Investigate and repair failing tests.** Review failure evidence and proposed repairs. [Self-healing →](https://docs.qualitymax.io/self-healing/)
+- **Bring project context into Slack.** Ask project-aware questions and review supported action proposals. [Slack →](https://docs.qualitymax.io/slack/) · [Memory and grounding →](https://docs.qualitymax.io/memory-grounding/)
+- **Manage and reuse test assets.** Organize cases and scripts, work with performance tests, and exchange QTML assets. [Test management →](https://docs.qualitymax.io/test-management/) · [Performance →](https://docs.qualitymax.io/performance/) · [QTML →](https://docs.qualitymax.io/export-qtml/)
 
----
+## Explore the tools
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Quality-Max/qmax-code-releases/main/assets/max-the-cat.gif" alt="Max the cat" width="200">
-</p>
+| Project | Purpose | License / status |
+|---|---|---|
+| [qmax-mcp](https://github.com/Quality-Max/qmax-mcp) | Local browser inspection, scanning, Playwright reproduction generation, and test execution through MCP | MIT; standalone and optional hosted proxy modes |
+| [qmax-code](https://github.com/Quality-Max/qmax-code) | Terminal agent for coding and testing, with standalone and connected workflows | Source available, FSL-1.1-ALv2 |
+| [Free QA Skills](https://github.com/Quality-Max/free-qa-skills) | Reusable QA workflows for supported coding agents | Apache-2.0 |
+| [9lives](https://github.com/Quality-Max/9lives) | Local test repair with reruns and reviewable diffs | MIT; prototype |
+| [Test Grader](https://github.com/Quality-Max/qualitymax-grader) | Static Playwright test-quality grading | Apache-2.0 |
+| [Supply Chain Scanner](https://github.com/Quality-Max/supply-chain-scanner) | Python dependency supply-chain checks | Apache-2.0 |
+| [qmax local agent](https://github.com/Quality-Max/qmax-local-agent) | CLI and local execution agent for platform workflows | Apache-2.0 |
 
----
+See each repository for its current requirements and limitations. The hosted platform and individual tools have different licensing and availability.
 
-<p align="center">
-  <a href="https://qualitymax.io">qualitymax.io</a> &nbsp;&middot;&nbsp;
-  <a href="https://discord.gg/VNuADkt4">Discord Community</a> &nbsp;&middot;&nbsp;
-  Berlin, Germany
-</p>
+For integrations that embed QualityMax, see [Partner / White-label](https://docs.qualitymax.io/partner-white-label/). For responsive audits and managed flows, see [Mobile](https://docs.qualitymax.io/mobile/). Learn how to interpret [evidence and receipts](https://docs.qualitymax.io/evidence-trust/).
+
+## See examples and integrations
+
+[qmax-mcp demo](https://github.com/Quality-Max/qmax-mcp/tree/main/demo) · [9lives repair demo](https://github.com/Quality-Max/9lives/blob/main/demo/heal.gif) · [GitHub Action](https://github.com/Quality-Max/qualitymax-github-action) · [n8n workflows](https://github.com/Quality-Max/n8n-nodes-qualitymax) · [qmax-code releases](https://github.com/Quality-Max/qmax-code/releases/latest)
+
+For the wider platform, visit the [public product guide](https://github.com/Quality-Max/qualitymax) and [documentation](https://docs.qualitymax.io/). Sovereign deployment is available as a [private preview](https://docs.qualitymax.io/deployment/).
+
+To contribute to a tool, start with its repository's contribution guidance and issue tracker.
