@@ -39,7 +39,7 @@ Hosted workflows use a QualityMax account. Standalone tools have their own prere
 ┌─ THE QA LOOP ────────────────────────────────────────────┐
 │                                                          │
 │   Discover ──> Generate ──> Review ──> Execute           │
-│                                         │                │
+│                                          │               │
 │   Retain evidence <── Rerun <── Inspect ─┘               │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
