@@ -21,7 +21,7 @@ Discover user journeys, generate and run tests, review changes, and inspect the 
 |---|---|
 | Use the platform to manage tests and inspect runs | [Web app quickstart](https://docs.qualitymax.io/quickstart-web-app/) |
 | Connect your coding agent to hosted QualityMax | [MCP quickstart](https://docs.qualitymax.io/quickstart-mcp/) |
-| Work locally with standalone tools | [qmax-mcp](https://github.com/Quality-Max/qmax-mcp), [qmax-code](https://github.com/Quality-Max/qmax-code), or [QA skills](https://github.com/Quality-Max/free-qa-skills) |
+| Work locally with standalone tools | [9lives](https://github.com/Quality-Max/9lives-runner) for Playwright execution and page checks, [qmax-code](https://github.com/Quality-Max/qmax-code), or [QA skills](https://github.com/Quality-Max/free-qa-skills) |
 
 Hosted workflows use a QualityMax account. Standalone tools have their own prerequisites; model-assisted workflows may require a model provider or coding-agent subscription.
 
@@ -49,10 +49,11 @@ Hosted workflows use a QualityMax account. Standalone tools have their own prere
 
 | Project | Purpose | License / status |
 |---|---|---|
-| [qmax-mcp](https://github.com/Quality-Max/qmax-mcp) | Local browser inspection, scanning, Playwright reproduction generation, and test execution through MCP | MIT; standalone and optional hosted proxy modes |
+| [9lives](https://github.com/Quality-Max/9lives-runner) | Open-source Playwright tools for coding agents: bounded local execution with receipts, static test assessment, page scanning and inspection, locator healing, fix confirmation and fault testing, as a Go CLI, an optional `@9l/playwright` SDK and an MCP server. [9lives.run](https://9lives.run) | Apache-2.0; healing, confirmation and fault testing are experimental |
+| [qmax-mcp](https://github.com/Quality-Max/qmax-mcp) | The earlier standalone MCP server for page scanning, inspection and Playwright reproductions; those checks now ship in 9lives (`9l scan`, `9l inspect`, `9l mcp`) | MIT; standalone and optional hosted proxy modes |
 | [qmax-code](https://github.com/Quality-Max/qmax-code) | Terminal agent for coding and testing, with standalone and connected workflows | Source available, FSL-1.1-ALv2 |
 | [Free QA Skills](https://github.com/Quality-Max/free-qa-skills) | Reusable QA workflows for supported coding agents | Apache-2.0 |
-| [9lives](https://github.com/Quality-Max/9lives) | Local test repair with reruns and reviewable diffs | MIT; prototype |
+| [9lives Python](https://github.com/Quality-Max/9lives) | The original Python CLI: local test repair with reruns and reviewable diffs, Cypress and Selenium adapters | MIT; maintenance mode, new Playwright projects use the Go runner |
 | [Test Grader](https://github.com/Quality-Max/qualitymax-grader) | Static Playwright test-quality grading | Apache-2.0 |
 | [Supply Chain Scanner](https://github.com/Quality-Max/supply-chain-scanner) | Python dependency supply-chain checks | Apache-2.0 |
 | [qmax local agent](https://github.com/Quality-Max/qmax-local-agent) | CLI and local execution agent for platform workflows | Apache-2.0 |
@@ -63,7 +64,7 @@ For integrations that embed QualityMax, see [Partner / White-label](https://docs
 
 ## See examples and integrations
 
-[qmax-mcp demo](https://github.com/Quality-Max/qmax-mcp/tree/main/demo) · [9lives repair demo](https://github.com/Quality-Max/9lives/blob/main/demo/heal.gif) · [GitHub Action](https://github.com/Quality-Max/qualitymax-github-action) · [n8n workflows](https://github.com/Quality-Max/n8n-nodes-qualitymax) · [qmax-code releases](https://github.com/Quality-Max/qmax-code/releases/latest)
+[9lives interactive demo](https://9lives.run/demo.html) · [9lives first-run example](https://github.com/Quality-Max/9lives-runner/blob/main/demo/first-run/README.md) · [qmax-mcp demo](https://github.com/Quality-Max/qmax-mcp/tree/main/demo) · [9lives Python repair demo](https://github.com/Quality-Max/9lives/blob/main/demo/heal.gif) · [GitHub Action](https://github.com/Quality-Max/qualitymax-github-action) · [n8n workflows](https://github.com/Quality-Max/n8n-nodes-qualitymax) · [qmax-code releases](https://github.com/Quality-Max/qmax-code/releases/latest)
 
 For the wider platform, visit the [public product guide](https://github.com/Quality-Max/qualitymax) and [documentation](https://docs.qualitymax.io/). Sovereign deployment is available as a [private preview](https://docs.qualitymax.io/deployment/).
 
