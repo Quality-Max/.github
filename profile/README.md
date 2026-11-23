@@ -25,6 +25,26 @@ Discover user journeys, generate and run tests, review changes, and inspect the 
 
 Hosted workflows use a QualityMax account. Standalone tools have their own prerequisites; model-assisted workflows may require a model provider or coding-agent subscription.
 
+## Try these prompts
+
+Connect QualityMax to Claude Code or Codex with the [MCP quickstart](https://docs.qualitymax.io/quickstart-mcp/). Replace the examples with your own test URL or execution ID. Crawling, generating, and running tests require write access.
+
+**Check your connection**
+
+> Use QualityMax to list my projects.
+
+**Generate a Playwright test for one journey**
+
+> Use QualityMax to crawl only the public search journey at `https://example.test`. Generate a Playwright test for that journey and show me the script for review before running it.
+
+**Run a reviewed test**
+
+> Use QualityMax to run the Playwright test I just reviewed. When it finishes, give me the result, the execution ID, and any available artifact links.
+
+**Explain a failed run**
+
+> Use QualityMax to inspect Playwright execution `EXECUTION_ID`. Show me the failing step or assertion if the logs identify it. Include the execution ID and any available trace or screenshot links.
+
 ## What you can do
 
 ```text
